@@ -1,7 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
+
 <!doctype html>
 <html lang="en" >
 
@@ -19,6 +16,28 @@ Author URL: http://w3layouts.com
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+
+<!--read more-->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+     
+     <script>$(document).ready(function () {
+        $('.nav-toggle').click(function () {
+            var collapse_content_selector = $(this).attr('href');
+            var toggle_switch = $(this);
+            $(collapse_content_selector).toggle(function () {
+                if ($(this).css('display') == 'none') {
+                    toggle_switch.html('Read More');
+                } else {
+                    toggle_switch.html('Read Less');
+                }
+            });
+        });
+    
+    });
+    </script>
+<!--read more-->
+
 </head>
 
 <body>
@@ -61,6 +80,7 @@ Author URL: http://w3layouts.com
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
+                      
                         <!-- search button -->
                         <div class="search-right ml-lg-3">
                             <form action="#search" method="GET" class="search-box position-relative">
@@ -238,23 +258,29 @@ Author URL: http://w3layouts.com
                                  <span style="font-weight: bold;">•</span> Volumetric/ Cut and Fill analysis. <br>
                                  <span style="font-weight: bold;">•</span> 3D Modelling.<br> 
 
-                                ERANAD ENGINEERING CONSULTANT will undertake land surveys small and large (from a 
-                                single plot to large multi-acre developments) across the 
-                                UK and further afield. Utilising the most cost-effective 
-                                solutions,  ERANAD ENGINEERING CONSULTANT will also ensure that clients receive the 
-                                products at the accuracy and detail they require<br>
-                                
-                                GNSS, Total Stations, Laser Scanning, LIDAR and 
-                                Unmanned Aerial Vehicles (UAVS) are among the 
-                                technologies that could be utilised to acquire 
-                                geospatial data for our client’s projects.
-                                Surveys can be delivered in a variety of formats and 
-                                to specifications including:<br> 
-                                <span style="font-weight: bold;">•</span> Client provided specifications <br> 
-                                <span style="font-weight: bold;">•</span> RICS specification <br> 
-                                <span style="font-weight: bold;">•</span> ERANAD ENGINEERING CONSULTANT own in-house specification<br> <br> 
+                                ERANAD ENGINEERING CONSULTANT will undertake and
+                                 <p id="collapse" style="display:none ; ">surveys small and large (from a 
+                                    single plot to large multi-acre developments) across the 
+                                    UK and further afield. Utilising the most cost-effective 
+                                    solutions,  ERANAD ENGINEERING CONSULTANT will also ensure that clients receive the 
+                                    products at the accuracy and detail they require<br>
+                                    
+                                    GNSS, Total Stations, Laser Scanning, LIDAR and 
+                                    Unmanned Aerial Vehicles (UAVS) are among the 
+                                    technologies that could be utilised to acquire 
+                                    geospatial data for our client’s projects.
+                                    Surveys can be delivered in a variety of formats and 
+                                    to specifications including:<br> 
+                                    <span style="font-weight: bold;">•</span> Client provided specifications <br> 
+                                    <span style="font-weight: bold;">•</span> RICS specification <br> 
+                                    <span style="font-weight: bold;">•</span> ERANAD ENGINEERING CONSULTANT own in-house specification
+                                    
+                                </p>  
+                                <a href="#collapse" class="nav-toggle" style="color: blue; font-size: small;">Read More</a>
                             </p>
-                        </div>
+                            </div>
+                        
+                       
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
@@ -273,7 +299,8 @@ Author URL: http://w3layouts.com
                                 ERANAD ENGINEERING CONSULTANToffer an initial free telephone consultation if you 
                                 think you have a boundary or right of way problem with 
                                 a neighbour. <br> 
-                                If you then want to proceed further we then offer a site 
+                                If you then want to proceed further
+                                <p id="collaps" style="display:none"> we then offer a site 
                                 consultation of approximately one hour to discuss the 
                                 problem, look at the site and study any 
                                 documentation. Some basic measurements might be 
@@ -286,7 +313,13 @@ Author URL: http://w3layouts.com
                                 boundary demarcation if required. Reports can be 
                                 produced which will be acceptable in a court of law.
                                 Additionally, we can provide an expert witness who 
-                                can testify in a court of law.</p><br><br><br><br>
+                                can testify in a court of law.
+                                <br><br>
+                            </p>
+                            <a href="#collaps" class="nav-toggle"style="color: blue; font-size: small;">Read More</a>
+                        
+                        </p>
+                        
                         </div>
                     </div>
                 </div>
@@ -305,7 +338,8 @@ Author URL: http://w3layouts.com
                                 consultation and advice relevant to many areas covering 
                                 land surveying and measurement and mapping.. <br>
                                 Some examples include: <br>
-                                <span style="font-weight: bold;">•</span> Help defining survey specifications for projects and 
+                                <span style="font-weight: bold;">•</span> Help defining survey specifications 
+                                <p id="colla" style="display:none">for projects and 
                                 procuring survey work. <br>
                                 <span style="font-weight: bold;">•</span> Project management – management of large/small 
                                 surveying projects including best practice and 
@@ -317,7 +351,10 @@ Author URL: http://w3layouts.com
                                 seminars – ERANAD ENGINEERING CONSULTANT are happy to present to 
                                 companies and provide the latest insights into 
                                 survey technology, best practice and procuring 
-                                survey work at a time that works for you.<br> <br> <br> <br> <br><br><br></p>
+                                survey work at a time that works for you.<br> <br> <br> <br> <br><br><br>
+                            </p>
+                            <a href="#colla" class="nav-toggle"style="color: blue; font-size: small;">Read More</a>
+                            </p>
                         </div>
                     </div>
                 </div>
