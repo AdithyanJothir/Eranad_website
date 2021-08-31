@@ -11774,7 +11774,7 @@ screen and (max-height: 300px) {
 }
 
 /* Styles for dialog window */
-#small-dialog {
+_mall-dialog {
   max-width: 750px;
   margin: 40px auto;
   position: relative;
