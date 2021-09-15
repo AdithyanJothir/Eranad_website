@@ -196,9 +196,9 @@ Author URL: http://w3layouts.com
                         </div>
                     </div>
                     <div class="form-group-2 mt-3 text-right">
-                        <a href="contact.html">
-                        <button type="submit" class="btn btn-style">Submit Form</button>
-                    </a>
+                        
+                        <button type="submit" class="btn btn-style" onclick="redirect()">Submit Form</button>
+                    
                     </div>
                 </form>
             </div>
@@ -350,6 +350,12 @@ Author URL: http://w3layouts.com
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+
+        // On submit redirect to contact.html
+
+        function redirect(){
+            document.location.href="contact.html";
         }
     </script>
     <!-- //move top -->
